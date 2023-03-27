@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+
+
+        <input type="checkbox" name="" id="toggle">
+        <label for="toggle" class="fa fa-bars"></label>
+
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="" width="50">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Starbucks</h3>
+            <span class="title">Lorem ipsum dolor sit amet.</span>
+            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam ullam aliquid nisi doloribus
+                architecto minus quam molestiae, autem hic deserunt ducimus perspiciatis magni ad quos natus fugiat
+                dicta, facere nostrum non dolorem harum. Illum, quis impedit maiores repellat vero dolorem nostrum! Vel,
+                in officiis! Aperiam, tenetur hic quo ipsam culpa autem assumenda quod sapiente architecto numquam
+                inventore. Voluptate,</p>
+            <a href="#products" class="btn">Add to card</a>
+        </div>
+
+        <div class="img">
+            <img src="images/img1.png" alt="" class="slides" width="250">
+            <img src="images/img2.png" alt="" class="slides" width="250">
+            <img src="images/img3.png" alt="" class="slides" width="250">
+        </div>
+        <div class="img-slider">
+            <div class="row">
+                <div class="img-demo">
+                    <img src="images/img1.png" alt="" onclick="img(1)" width="50">
+                </div>
+                <div class="img-demo">
+                    <img src="images/img2.png" alt="" onclick="img(2)" width="50">
+                </div>
+                <div class="img-demo">
+                    <img src="images/img3.png" alt="" onclick="img(3)" width="50">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <h1 class="heading">
+            <span>about <span> us
+        </h1>
+
+        <div class="row">
+            <div class="img-starbucks">
+                <img src="images/about.png" alt="" >
+            </div>
+            <div class="content">
+                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam laboriosam quas consequuntur
+                    mollitia, repellat cum pariatur aliquam aperiam officia. Consequuntur delectus voluptatem soluta
+                    doloremque odio accusamus, nobis qui et facere voluptate. Ipsum excepturi optio sed provident quaerat
+                    vel ab error nemo. Voluptate at nihil officiis quasi porro, et quis autem laboriosam quod dolores sint
+                    ipsa necessitatibus, ab, in libero dolorum tempora! Officia dolores reiciendis itaque, obcaecati enim
+                    illo debitis ratione nulla magnam? In eligendi illum nostrum voluptatum ducimus deleniti autem rerum?
+                    Ad, adipisci commodi laborum quam molestiae impedit alias tempore fugiat ullam sequi quis perspiciatis
+                    reprehenderit excepturi facere quasi nihil.</p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Product section -->
+    <section class="products" id="products">
+       <h1 class="heading">products</h1>
+       <div class="box-container">
+        <div class="box">
+            <span class="discount">-50%</span>
+            <div class="row">
+                <div class="image">
+                    <img src="images/img1.png" alt="">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vel officia adipisci accusantium quidem quos voluptatem illum qui nostrum vitae!</p>
+                </div>
+                
+            </div>
+            <div class="row-2">
+                <div class="content">
+                    <h3>green tea</h3>
+                    <div class="price"> $10<span>&nbsp;$20</span></div>               
+                </div>
+                <div class="icons">
+                   <div class="row">
+                        <a href="#" class="fa fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <span class="discount">-50%</span>
+            <div class="row">
+                <div class="image">
+                    <img src="images/img2.png" alt="">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vel officia adipisci accusantium quidem quos voluptatem illum qui nostrum vitae!</p>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="content">
+                    <h3>green tea</h3>
+                    <div class="price"> $10<span>&nbsp;$20</span></div>               
+                </div>
+                <div class="icons">
+                   <div class="row">
+                        <a href="#" class="fa fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <span class="discount">-50%</span>
+            <div class="row">
+                <div class="image">
+                    <img src="images/img3.png" alt="">
+                    
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vel officia adipisci accusantium quidem quos voluptatem illum qui nostrum vitae!</p>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="content">
+                    <h3>green tea</h3>
+                    <div class="price"> $10<span>&nbsp;$20</span></div>               
+                </div>
+                <div class="icons">
+                   <div class="row">
+                        <a href="#" class="fa fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </section>
+
+
+    <!-- review section -->
+    <section class="review" id="review">
+        <h1 class="heading">customer's <span>review</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda delectus, recusandae consequuntur quibusdam nam cupiditate asperiores suscipit? Voluptas, error assumenda?</p>
+                    <div class="user">
+                        <img src="images/user.png" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <span>happy customer</span>
+                        </div>
+                    </div>
+                    <span class="fas fa-quote-right">    
+                    </span>
+                
+            </div>
+            <div class="box">
+                
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda delectus, recusandae consequuntur quibusdam nam cupiditate asperiores suscipit? Voluptas, error assumenda?</p>
+                    <div class="user">
+                        <img src="images/user.png" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <span>happy customer</span>
+                        </div>
+                    </div>
+                    <span class="fas fa-quote-right">    
+                    </span>
+               
+            </div>
+            <div class="box">
+               
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda delectus, recusandae consequuntur quibusdam nam cupiditate asperiores suscipit? Voluptas, error assumenda?</p>
+                    <div class="user">
+                        <img src="images/user.png" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <span>happy customer</span>
+                        </div>
+                    </div>
+                    <span class="fas fa-quote-right">    
+                    </span>
+               
+            </div>
+            <div class="box">
+               
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda delectus, recusandae consequuntur quibusdam nam cupiditate asperiores suscipit? Voluptas, error assumenda?</p>
+                    <div class="user">
+                        <img src="images/user.png" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <span>happy customer</span>
+                        </div>
+                    </div>
+                    <span class="fas fa-quote-right">    
+                    </span>
+               
+            </div>
+            <div class="box">
+               
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda delectus, recusandae consequuntur quibusdam nam cupiditate asperiores suscipit? Voluptas, error assumenda?</p>
+                    <div class="user">
+                        <img src="images/user.png" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <span>happy customer</span>
+                        </div>
+                    </div>
+                    <span class="fas fa-quote-right">    
+                    </span>
+               
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h1 class="heading">contact <span> &nbsp;us</span></h1>
+        <div class="row">
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="number" class="box">
+                <textarea name="" class="box" placehoder="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+            <div class="img">
+                <img src="images/contact.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- footer -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#products">products</a>
+                <a href="#review">review</a>
+                <a href="#contact">contact</a>
+            </div>
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#">my account</a>
+                <a href="#">my orders</a>
+                <a href="#">my favorite</a>
+            </div>
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">japan</a>
+                <a href="#">france</a>
+            </div>
+            <div class="box">
+                <h3>qontact info</h3>
+                <a href="#">+123456789</a>
+                <a href="#">example@gmail.com</a>
+                <a href="#">Lorem ipsum dolor sit amet.</a>
+                <img src="images/logo.png" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="credit"> created by <span> Foythong</span></div>
+
+
+</body>
+</html>
+
+<script src="js/script.js"></script>
